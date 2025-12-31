@@ -1,0 +1,29 @@
+{
+  "name": "param-texte-api",
+  "version": "1.0.0",
+  "description": "Implémenter et déployer une API REST qui justifie un texte passé en paramètre.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mymdwwm/param-texte-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mymdwwm/param-texte-api/issues"
+  },
+  "homepage": "https://github.com/mymdwwm/param-texte-api#readme",
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
