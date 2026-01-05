@@ -1,0 +1,1 @@
+/* Gestion de mots par token */
