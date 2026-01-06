@@ -7,7 +7,7 @@ import { TokenRequestBody, TokenResponse, ErrorResponse } from "../types";
 export const tokenRouter = Router(); // router de gestion express
 
 tokenRouter.post("/token", (req: Request<{}, {}, TokenRequestBody>, res: Response<TokenResponse | ErrorResponse>) => {
-    const { email } = req.body;
+    const { email } = req.body || {};
 
     if (!email) { // vérification du mail
         return res.status(400).json({
