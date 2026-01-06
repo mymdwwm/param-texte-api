@@ -4,7 +4,7 @@
     // File Layout
     "rootDir": "src",
     "outDir": "dist",
-
+    "types": ["node"],
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "commonjs",
@@ -42,5 +42,9 @@
     //"skipLibCheck": true,
 
     "esModuleInterop": true
-  }
+  },
+  "exclude": [
+    "**/*.test.ts",
+    "**/__tests__/**"
+  ]
 }
