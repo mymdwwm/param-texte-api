@@ -45,7 +45,7 @@ justifyRouter.post(
 
         res.status(402).json({
           error: "Rate limit dépassé",
-          message: `Vous avez dépassé la limite de 80 000 mots par jour. Mots restants aujourd'hui : ${remaining}`,
+          message: `Payement Require. Mots restants aujourd'hui : ${remaining}`,
           remaining: remaining,
           requested: wordCount,
         });
