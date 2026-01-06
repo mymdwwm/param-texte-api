@@ -10,9 +10,3 @@ Implémenter et déployer une API REST qui justifie un texte passé en paramètr
 - Le code **doit être déployé** sur un url ou une ip public
 - Langage : Node.js → typescript
 - **PAS** d’usage de bibliothèque externe pour la justification
-
-
-## infos
-
-Verification : http://localhost:3000/health  -> Renvoie "OK"
-

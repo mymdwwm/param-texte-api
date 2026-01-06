@@ -2,6 +2,7 @@
 
 import express from "express";
 import { tokenRouter } from "./routes/token.routes";
+import { justifyRouter } from "./routes/justify.routes";
 
 export const app = express(); // création de l'app
 
@@ -18,6 +19,8 @@ app.get("/health",(_req, res)=>{ // Route de vérification du fonctionnement
 });
 
 app.use("/api", tokenRouter);
+
+app.use("/api", justifyRouter);
 
 //////// Erreurs
 
