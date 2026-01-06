@@ -10,7 +10,7 @@ export const app = express(); // création de l'app
 
 app.use(express.json()); // Middleware (json)
 
-app.use(express.text({ type: "text/plain" })); // Middleware (texte à justifier)
+app.use(express.text({ type: "text/plain", limit: "1mb"})); // Middleware (texte à justifier)
 
 //////// Routes
 
@@ -26,7 +26,7 @@ app.use("/api", justifyRouter);
 
 app.use((_req, res) => {
     res.status(404).json({ 
-      error: "Route non trouvée" // si aucune route répond
+      error: "Route noN trouvée" // si aucune route répond
     });
   });
 
