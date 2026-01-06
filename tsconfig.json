@@ -9,7 +9,7 @@
     "module": "commonjs",
     "target": "es2020",
     "moduleResolution": "node",
-    "types": ["node", "express"],
+    //"types": [],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
