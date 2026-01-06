@@ -4,11 +4,11 @@
     // File Layout
     "rootDir": "src",
     "outDir": "dist",
-    "moduleResolution": "node",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "commonjs",
     "target": "es2020",
+    "moduleResolution": "node",
     //"types": [],
     // For nodejs:
     // "lib": ["esnext"],
